@@ -1,0 +1,148 @@
+body{
+  background-color: rgb(234, 234, 234);
+}
+.navbar{
+    background-color: rgb(2, 30, 80);
+}
+
+ .custom-btn {
+    background: linear-gradient(90deg, #022e7b, #ff0000); 
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .custom-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    color: #fff;
+  }
+
+
+  
+/* Mission */
+
+.card {
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+
+
+/* sports card */
+
+.sport-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid #ddd !important;
+}
+
+
+.sport-icon-container {
+    width: 150px; 
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; 
+    padding: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sport-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.achievement-list li {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+
+
+/* community */
+
+.community-section {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* footer */
+
+.clubly-footer {
+    background-color: #0c334d;
+    color: #fff;
+
+}
+
+.clubly-footer h5 {
+    display: inline-block;
+    color: #fff;
+    /* margin-bottom: 25px; */
+    padding-top: 25px;
+}
+
+.clubly-footer a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+.clubly-footer a:hover {
+    color: #dc3545;
+}
+
+.contact-info i {
+    color: #dc3545; 
+    width: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+    /* margin-right: 0;  */
+}
+
+.social-icons a:hover {
+    background-color: #dc3545;
+}
+
+.clubly-footer .copyright {
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
